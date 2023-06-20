@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="699.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.subjects.StudentView">
+   <children>
+      <Button layoutX="602.0" layoutY="64.0" mnemonicParsing="false" text="جلب" />
+      <Button layoutX="405.0" layoutY="354.0" mnemonicParsing="false" text="حفظ" textAlignment="CENTER" />
+      <Button layoutX="221.0" layoutY="354.0" mnemonicParsing="false" text="حذف" textAlignment="CENTER" />
+      <Button layoutX="69.0" layoutY="354.0" mnemonicParsing="false" text="خروج" textAlignment="CENTER" />
+      <Button layoutX="615.0" layoutY="354.0" mnemonicParsing="false" text="جديد" textAlignment="CENTER" />
+      <Label layoutX="544.0" layoutY="68.0" text="رقم القيد" />
+      <Label layoutX="266.0" layoutY="14.0" text="شاشة الطالب">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="583.0" layoutY="124.0" text="بيانات الطالب" />
+      <Label layoutX="613.0" layoutY="167.0" text="رقم القيد" />
+      <Label layoutX="376.0" layoutY="168.0" text="إسم الطالب" />
+      <Label layoutX="167.0" layoutY="167.0" text="إسم الام" />
+      <Label layoutX="597.0" layoutY="239.0" text="تاريخ الميلاد" />
+      <Label layoutX="392.0" layoutY="225.0" text="الجنس" />
+      <Label layoutX="177.0" layoutY="239.0" text="القسم" />
+      <TextField layoutX="383.0" layoutY="64.0" />
+      <TextField layoutX="69.0" layoutY="164.0" prefHeight="25.0" prefWidth="89.0" />
+      <TextField layoutX="221.0" layoutY="163.0" />
+      <TextField layoutX="458.0" layoutY="164.0" />
+      <TextField layoutX="435.0" layoutY="233.0" />
+      <RadioButton layoutX="348.0" layoutY="247.0" mnemonicParsing="false" text="أنثى" />
+      <RadioButton layoutX="298.0" layoutY="247.0" mnemonicParsing="false" text="ذكر" />
+      <ComboBox layoutX="46.0" layoutY="236.0" prefHeight="25.0" prefWidth="112.0" />
+   </children>
+</AnchorPane>

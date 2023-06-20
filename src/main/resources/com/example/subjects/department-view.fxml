@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.subjects.DepartmentView">
+   <children>
+      <Button layoutX="503.0" layoutY="59.0" mnemonicParsing="false" text="جديد" />
+      <Label layoutX="421.0" layoutY="63.0" text="إسم القسم" />
+      <TextField layoutX="253.0" layoutY="59.0" />
+      <Button layoutX="87.0" layoutY="59.0" mnemonicParsing="false" text="حفظ" />
+      <TableView layoutX="77.0" layoutY="150.0" prefHeight="200.0" prefWidth="330.0">
+        <columns>
+          <TableColumn prefWidth="167.0" text="إسم الفسم" />
+          <TableColumn minWidth="0.0" prefWidth="127.0" text="ر.ت" />
+        </columns>
+      </TableView>
+      <Label layoutX="253.0" layoutY="21.0" text="شاشة الاقسام">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

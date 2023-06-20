@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.subjects.MainView">
+   <children>
+      <Button layoutX="79.0" layoutY="82.0" mnemonicParsing="false" text="شاشة المواد الدراسية" />
+      <Button layoutX="364.0" layoutY="82.0" mnemonicParsing="false" text="شاشة الاقسام" />
+      <Button layoutX="86.0" layoutY="232.0" mnemonicParsing="false" text="شاشة تنزيل المواد" />
+      <Button  fx:id="stBtn"  onAction="#onStButtonClick"  layoutX="365.0" layoutY="232.0" mnemonicParsing="false" text="شاشة الطلاب" />
+      <Button layoutX="274.0" layoutY="314.0" mnemonicParsing="false" text="إغلاق" />
+   </children>
+</AnchorPane>
