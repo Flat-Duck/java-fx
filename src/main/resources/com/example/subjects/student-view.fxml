@@ -1,21 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.scene.control.Button?>
-<?import javafx.scene.control.ComboBox?>
-<?import javafx.scene.control.Label?>
-<?import javafx.scene.control.RadioButton?>
-<?import javafx.scene.control.TextField?>
-<?import javafx.scene.layout.AnchorPane?>
-<?import javafx.scene.text.Font?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
 
-
-<AnchorPane prefHeight="400.0" prefWidth="699.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.subjects.StudentView">
+<AnchorPane prefHeight="400.0" prefWidth="699.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.subjects.StudentView">
    <children>
-      <Button layoutX="602.0" layoutY="64.0" mnemonicParsing="false" text="جلب" />
-      <Button layoutX="405.0" layoutY="354.0" mnemonicParsing="false" text="حفظ" textAlignment="CENTER" />
-      <Button layoutX="221.0" layoutY="354.0" mnemonicParsing="false" text="حذف" textAlignment="CENTER" />
-      <Button layoutX="69.0" layoutY="354.0" mnemonicParsing="false" text="خروج" textAlignment="CENTER" />
-      <Button layoutX="615.0" layoutY="354.0" mnemonicParsing="false" text="جديد" textAlignment="CENTER" />
+      <Button fx:id="getStdBtn" layoutX="602.0" layoutY="64.0" mnemonicParsing="false" onAction="#getStudent" text="جلب" />
+      <Button fx:id="savStdBtn" layoutX="405.0" layoutY="354.0" mnemonicParsing="false" onAction="#savStudent" text="حفظ" textAlignment="CENTER" />
+      <Button fx:id="delStdBtn" layoutX="221.0" layoutY="354.0" mnemonicParsing="false" onAction="#delStudent" text="حذف" textAlignment="CENTER" />
+      <Button fx:id="clsBtn" layoutX="69.0" layoutY="354.0" mnemonicParsing="false" onAction="#closeApp" text="خروج" textAlignment="CENTER" />
+      <Button fx:id="clrStdBtn" layoutX="615.0" layoutY="354.0" mnemonicParsing="false" onAction="#clrData" text="جديد" textAlignment="CENTER" />
       <Label layoutX="544.0" layoutY="68.0" text="رقم القيد" />
       <Label layoutX="266.0" layoutY="14.0" text="شاشة الطالب">
          <font>
@@ -29,7 +24,7 @@
       <Label layoutX="597.0" layoutY="239.0" text="تاريخ الميلاد" />
       <Label layoutX="392.0" layoutY="225.0" text="الجنس" />
       <Label layoutX="177.0" layoutY="239.0" text="القسم" />
-      <TextField layoutX="383.0" layoutY="64.0" />
+      <TextField  fx:id="stdNumberTxt" layoutX="383.0" layoutY="64.0" />
       <TextField layoutX="69.0" layoutY="164.0" prefHeight="25.0" prefWidth="89.0" />
       <TextField layoutX="221.0" layoutY="163.0" />
       <TextField layoutX="458.0" layoutY="164.0" />

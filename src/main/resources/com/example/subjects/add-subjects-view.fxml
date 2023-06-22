@@ -6,10 +6,10 @@
 
 <AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.subjects.AddSubjectsView">
    <children>
-      <Button layoutX="491.0" layoutY="43.0" mnemonicParsing="false" text="جديد" />
+      <Button fx:id="clrStdBtn" onAction="#clrData" layoutX="491.0" layoutY="43.0" mnemonicParsing="false" text="جديد" />
       <Button layoutX="251.0" layoutY="165.0" mnemonicParsing="false" text="+" />
       <Button layoutX="257.0" layoutY="291.0" mnemonicParsing="false" text="-" />
-      <Button layoutX="43.0" layoutY="296.0" mnemonicParsing="false" text="حفظ" />
+      <Button fx:id="savSbjBtn" onAction="#savSubject" layoutX="43.0" layoutY="296.0" mnemonicParsing="false" text="حفظ" />
       <ComboBox layoutX="45.0" layoutY="113.0" prefWidth="150.0" />
       <ComboBox layoutX="329.0" layoutY="108.0" prefWidth="150.0" />
       <ComboBox layoutX="330.0" layoutY="163.0" prefWidth="150.0" />

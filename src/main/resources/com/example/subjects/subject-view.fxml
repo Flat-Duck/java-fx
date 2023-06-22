@@ -13,12 +13,12 @@
       <Label layoutX="180.0" layoutY="78.0" text="إسم المادة" />
       <Label layoutX="421.0" layoutY="167.0" text="عدد الوحدات" />
       <Label layoutX="180.0" layoutY="167.0" text="القسم" />
-      <TextField layoutX="276.0" layoutY="74.0" />
+      <TextField fx:id="sbjCodeTxt" layoutX="276.0" layoutY="74.0" />
       <TextField layoutX="21.0" layoutY="74.0" />
       <TextField layoutX="262.0" layoutY="163.0" />
       <ComboBox layoutX="20.0" layoutY="163.0" prefWidth="150.0" />
-      <Button layoutX="85.0" layoutY="252.0" mnemonicParsing="false" text="حفظ" />
-      <Button layoutX="385.0" layoutY="252.0" mnemonicParsing="false" text="جديد" />
+      <Button fx:id="savSbjBtn" onAction="#savSubject"  layoutX="85.0" layoutY="252.0" mnemonicParsing="false" text="حفظ" />
+      <Button fx:id="clrStdBtn" onAction="#clrData"  layoutX="385.0" layoutY="252.0" mnemonicParsing="false" text="جديد" />
       <Label layoutX="262.0" layoutY="14.0" text="شاشة المواد الدراسية" />
    </children>
 </AnchorPane>
